@@ -4,7 +4,54 @@
 .Fashion-3-hex {color:#bc8feb}
 .destaque {color: #8b7dcd} */
 
+/* Cores claras para fundos */
+.My-Color-Theme-10-hex { color: #EFE4FF; }
+.My-Color-Theme-9-hex { color: #BEC0DD; }
+.My-Color-Theme-6-hex { color: #E4C9EB; }
+/* cores escuras para texto */
+.My-Color-Theme-8-hex { color: #3B2440; }
+.My-Color-Theme-11-hex { color: #381A52; }
+/* cores diferentes para destaques */
+.My-Color-Theme-1-hex { color: #BC8FEB; }
+.My-Color-Theme-2-hex { color: #EB8FD2; }
+.My-Color-Theme-3-hex { color: #A46CB0; }
+.My-Color-Theme-4-hex { color: #8B7DCD; }
+.My-Color-Theme-5-hex { color: #CC96A9; }
+.My-Color-Theme-7-hex { color: #8BCBD1; }
+
 html {
-    background: #e4c9eb;
-    color: #a46cb0;
+    background: #EFE4FF;
+    color: #3a233f;
+
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+p {
+    text-indent: 1em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: right;
+}
+
+.main p{
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
 }
