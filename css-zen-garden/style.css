@@ -16,7 +16,6 @@
 html {
     background: #EFE4FF;
     color: #3B2440;
-
     font-size: 16px;
     font-family: 'Arial', sans-serif;
 }
@@ -159,5 +158,32 @@ a:visited {
     padding-bottom: 5px;
 }
 
-/* 
-3. Utilize bordas para criar um separador entre os itens presentes no menu de design. Aplique uma borda superior no topo de todos os itens de menu. Aplique uma borda inferior apenas no último item da lista */
+@media screen and (max-width: 768px) {
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro {height:auto;}
+    .participation{
+        flex-direction: column;
+    }
+    p {
+        text-indent: none;
+    }
+}
+
+@media print {
+
+    html{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #zen-intro header{
+        background-color:#E4C9EB;
+        color: #3a233f;
+    }
+}
