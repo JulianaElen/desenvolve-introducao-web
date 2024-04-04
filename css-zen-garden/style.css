@@ -88,7 +88,7 @@ aside ul li {
 
 #design-selection{
     position: absolute;
-    top: 560px;
+    top: 480px;
     left: 65%;
     padding-left: 2%;
     padding-right: 2%;
@@ -130,9 +130,34 @@ aside ul li {
     flex-basis: 50%;
 }
 
+a {
+    color: rgb(235, 143, 210);
+    font-weight: bold;
+}
 
+a:hover {
+    color: rgb(178, 110, 160);
+}
+
+a:visited {
+    font-weight: normal;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #381A52 solid 1px;
+    padding: 2px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #381A52 solid 1px;
+    padding-bottom: 5px;
+}
 
 /* 
-4. Inclua uma linha no topo e embaixo das seções de benefícios e participação, utilizando a propriedade border-bottom e border-top respectivamente.
-- Remova a ocorrência de borda duplicada entre as duas seções
- */
+3. Utilize bordas para criar um separador entre os itens presentes no menu de design. Aplique uma borda superior no topo de todos os itens de menu. Aplique uma borda inferior apenas no último item da lista */
