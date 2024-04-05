@@ -1,0 +1,173 @@
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #EBB86C; }
+.My-Color-Theme-4-hex { color: #EBA36C; }
+.My-Color-Theme-6-hex { color: #E8DAB7; }
+.My-Color-Theme-7-hex { color: #26241E; }
+
+/* Retira margem de toda a pagina */
+* {
+    margin: 0;
+}
+/* Dados gerais da pagina */
+html {
+    background-color: #E8DAB7;
+    color: #26241E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Personalização do titulo (nome) */
+h1 {
+    font-family: serif;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 3.8em;
+    color: #f0e3c3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* Personalização geral dos subtitulos */
+h2, h3, h4 {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Personalização especifica dos titulos */
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h3 {
+    margin-top: 20px;
+}
+/* Personalização do menu de navegação */
+nav {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    background-color: #EBA36C;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+/* Personalização da lista do menu */
+#menuNav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+/* Personalização dos itens do menu */
+#menuNav li {
+    padding: 0 10px;
+}
+/* Link dos itens do menu */
+#menuNav li a {
+    text-decoration: none;
+    color:rgb(54, 29, 10);
+    font-weight: bold;
+}
+/* Links dos menu quando selecionados */
+#menuNav li a:hover {
+    color:rgb(109, 59, 21);
+}
+/* header que envolve toda a introdução */
+header {
+    background-color: #e99b5e;
+    padding: 20px;
+    padding-top: 60px;
+    width: 100%;
+    margin: 2px;
+}
+/* Div da imagem, nome, email e cidade */
+#divIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 100%;
+}
+/* Foto */
+#minhaFoto {
+    width: 250px; 
+    border-radius: 50%; 
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Apenas os textos da intro */
+#dadosIntro {
+    margin-left: 20px;
+    color: rgb(240, 218, 178); 
+}
+/* div que envolve a main e o aside */
+#main {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+/* aside das informações da intro */
+.secaoLateral {
+    width: 500px; 
+    margin-right: 20px;
+    padding: 20px; 
+    border-right: 2px solid #EBA36C;
+}
+/* E-mail e cidade */
+.cabecalho {
+    margin: 5px 0; 
+    font-size: 14px;
+    text-align: right;
+}
+/* Textos da introdução no aside */
+#introducao {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+/* Lista das habilidades */
+#listaHabilidade{
+    margin-bottom: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+/* Itens dentro das listas de habilidades */
+#listaHabilidade li {
+    margin-bottom: 10px;
+}
+/* Rodape */
+footer {
+    background-color: #c88959;
+}
+/* Div dentro do rodape */
+#rodape {
+    text-align: center;
+}
+/* Lista do rodape */
+#listaLinks {
+    list-style-type: none;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+/* Lista de itens do rodape */
+#listaLinks li {
+    margin: 3px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+/* Itens da lista do rodape */
+#listaLinks li a {
+    text-decoration: none;
+    color:rgb(54, 29, 10);
+}
+/* Itens da lista do rodape quando sobrepostos*/
+#listaLinks li a:hover {
+    color:rgb(109, 59, 21);
+}
+/* Copyright dentro do rodape */
+#copyright{
+    padding-bottom: 15px;
+    color:rgba(116, 70, 34, 0.7);
+}
+/* icones dos links no rodape */
+.imgRodape {
+    width: 15px;
+    margin-right: 4px;
+}
+

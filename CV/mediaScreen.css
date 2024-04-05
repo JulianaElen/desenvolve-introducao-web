@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+/* Personalização do titulo (nome) */
+h1 {
+    font-size: 2em;
+}
+h2 {
+    text-align: center;
+}
+/* header que envolve toda a introdução */
+header {
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    height: 325px;
+}
+/* Foto */
+#minhaFoto {
+    width: 290px; 
+    border-radius: 0%
+}
+/* Personalização da lista do menu */
+#menuNav {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+}
+/* Div da imagem, nome, email e cidade */
+#divIntro {
+    flex-direction: column;
+}
+/* Personalização dos itens do menu */
+#menuNav li{
+    margin: 2px;
+}
+/* Div da imagem, nome, email e cidade */
+#divIntro {
+    flex-direction: column;
+}
+/* div que envolve a main e o aside */
+#main{
+    width: auto;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: auto;
+}
+/* aside das informações da intro */
+.secaoLateral {
+    width: auto; 
+    margin: auto;
+    padding: 0px; 
+    padding-bottom: 15px;
+    border-right:none;
+    border-bottom: 2px solid #EBA36C;
+}
+/* div que envolve a main e o aside */
+#main {
+    flex-direction: column;
+}
+/* Rodape */
+footer{
+    width: auto;
+    margin: auto;
+}
+/* Lista do rodape */
+#listaLinks{
+    padding: 10px;
+    margin: auto;
+}
+
+
+}
